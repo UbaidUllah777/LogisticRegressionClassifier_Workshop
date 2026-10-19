@@ -142,9 +142,32 @@ The assignment notebook contains three technical talking points covering:
 2. **Binary Cross-Entropy:** measuring the penalty for incorrect probabilities.
 3. **Gradient Descent:** minimizing loss by updating model parameters.
 
-**Peer-review documentation is still pending:** add the actual peer repository link, exchanged review observations, and reflections after completing the peer session. The current notebook includes a heading for this section, but not the review details.
 
-For the course submission, follow the professor's instructions for the separate **team PDF**, including team names and student IDs, workshop title, repository links, and a **summary of no more than 50 words**. The PDF does not need to be committed to this repository.
+### Peer Programming and Code Review
+
+Our team completed a technical code review with
+Team A and documented the findings in Section 7
+of PairProgrammingReport.ipynb.
+
+**Peer Team Repository:**
+
+https://github.com/kinghighshow/LogisticRegressionClassifierWorkshop.git
+
+The review covered:
+
+- Gradient Descent convergence and learning rates.
+- Numerical stability of the sigmoid function.
+- Efficiency of loss calculations.
+- Object-oriented versus functional implementations.
+- Model evaluation and limitations.
+
+We documented the peer team's questions, their
+answers to our questions, and our reflections.
+
+Based on their feedback, we improved the sigmoid
+function using NumPy clipping to reduce numerical
+overflow risks.
+
 
 ## Group members
 
